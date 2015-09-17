@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AbdulHameed - Piggy Bank App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="Options">
+        <item >Saving</item>
+        <item >Spending</item>
+    </string-array>
+    <string name="Title">Select One</string>
+
+</resources>

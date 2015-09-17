@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AbdulHameed - City Guide</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="attraction">
+        <item >Alcatraz Island</item>
+        <item >Ferry Marketplace</item>
+        <item >Golden Gate Bridge</item>
+        <item >Cable Car Trolley</item>
+        <item >Fisherman Wharf</item>
+    </string-array>
+    <string-array name="attractionUrl">
+        <item >http://www.nps.gov/alca/index.htm</item>
+        <item >http://ferrybuildingmarketplace.com</item>
+        <item >http://www.aviewoncities.com/sf/goldengatebridge.htm</item>
+        <item >http://www.eventswest.us/transportation/transport_trolley.htm</item>
+        <item >http://www.fishermanswharf.org/</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/btnQuarters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Number of Quarters" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/btnDimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Number of Dimes" />
+
+    <EditText
+        android:id="@+id/btnNickels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Number of Nickels" />
+
+    <EditText
+        android:id="@+id/btnPennies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Number of Pennies" />
+
+    <Spinner
+        android:id="@+id/txtspinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/Title"
+        android:entries="@array/Options" />
+
+    <Button
+        android:id="@+id/btncalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textColor="#0000cc"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#cc0000"
+        android:textSize="30sp" />
+
+</TableLayout>
